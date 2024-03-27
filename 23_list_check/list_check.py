@@ -8,6 +8,7 @@ def list_check(lst):
         False
     """
     for item in lst:
-        if not isinstance (item, list):
-             return False
+        if not isinstance(item, list):
+            return False
     return True
+
